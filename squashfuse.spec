@@ -5,7 +5,7 @@
 
 Name:		squashfuse
 Version:	0.1.105
-Release:	%mkrel 1
+Release:	1
 Summary:	FUSE filesystem to mount squashfs archives
 License:	BSD
 Group:		File tools
@@ -59,7 +59,7 @@ Header files for development with %{name}.
 #------------------------------------------------
 
 %prep
-%autosetup
+%autosetup -p1
 
 %build
 ./autogen.sh
