@@ -4,8 +4,8 @@
 %define develname	%mklibname %{name} -d
 
 Name:		squashfuse
-Version:	0.1.105
-Release:	2
+Version:	0.2.0
+Release:	1
 Summary:	FUSE filesystem to mount squashfs archives
 License:	BSD
 Group:		File tools
