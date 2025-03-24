@@ -5,7 +5,7 @@
 
 Name:		squashfuse
 Version:	0.6.0
-Release:	1
+Release:	2
 Summary:	FUSE filesystem to mount squashfs archives
 License:	BSD
 Group:		File tools
