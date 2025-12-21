@@ -12,6 +12,11 @@ Group:		File tools
 URL:		https://github.com/vasi/squashfuse
 Source0:	https://github.com/vasi/squashfuse/archive/%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(fuse3)
 BuildRequires:	pkgconfig(libattr)
 BuildRequires:	pkgconfig(liblz4)
